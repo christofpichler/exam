@@ -13,7 +13,7 @@ public class Calculator {
             double inch = Double.valueOf(entry);
             return String.valueOf(inch * 2.54);
         }catch (Exception e){
-            return "error";
+            return "Wert falsch!";
         }
 
     }
